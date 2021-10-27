@@ -1,2 +1,2 @@
 # mern-todo
-todo list build with MERN stack
+todo list built with MERN stack
