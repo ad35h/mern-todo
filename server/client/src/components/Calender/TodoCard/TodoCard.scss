@@ -1,0 +1,33 @@
+.todo-card {
+    background-color: #75D6FC;
+    font-family: 'Fira Code';
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 5px solid #D6F3FE;
+        
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__time {
+        font-weight: 500;
+    }
+
+    &__duration {
+        font-weight: 500;
+    }
+
+    &__body {
+        margin-top: 5px;
+    }
+
+    &__footer {
+        margin-top: 5px;
+
+        .todo-card__text {
+            font-weight: 500;
+        }
+    }
+}
